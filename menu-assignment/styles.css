@@ -1,7 +1,10 @@
 /* font-family: "Raleway", sans-serif; */
 #logo-photo {
-  width:250px;
-  margin: 0 auto;
+width: 450px;
+padding: 10px 230px;
+border: 5 px solid gray;
+margin: 0;
+float: center
 }
 
 #intro {
@@ -56,10 +59,15 @@ p {
 }
 
 .chicken {
-  background-color: #b6c1cc;
+  background-color: #D0DFDF;
+  border: 5 px solid gray;
+  border-style: dotted;
+  border-color: #AEC2C2;
   padding-left: 50px;
   padding-top: 3px;
   padding-bottom: 3px;
+  padding-right: 100px;
+  width: 800px;
 }
 
 h6 {
@@ -84,7 +92,12 @@ h6 {
   font-weight: bold;
 }
 
+#redmoor-link {
+  color: #8c080b;
+}
+
 #second-photo {
     max-width: 600px;
     width: 33%;
     float: right;
+  }
