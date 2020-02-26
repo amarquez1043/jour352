@@ -1,10 +1,14 @@
 /* font-family: "Raleway", sans-serif; */
+.whole-page {
+  max-width: 1000px;
+  margin: auto;
+}
+
 #logo-photo {
 width: 450px;
-padding: 10px 230px;
-border: 5 px solid gray;
+padding: 10px 260px;
+border: 5px gray;
 margin: 0;
-float: center
 }
 
 #intro {
@@ -24,6 +28,11 @@ float: center
   letter-spacing: 4px;
 }
 
+#event-house {
+  border-top: dotted #aec2c2;
+  border-bottom: dotted #AEC2C2;
+}
+
 #history {
   color: #408785;
   text-align: center;
@@ -37,7 +46,8 @@ h3 {
   text-transform: uppercase;
   font-size: 16px;
   font-family: "Raleway",sans-serif;
-  line-spacing: 2px;
+  letter-spacing: 2px;
+  border-bottom: dotted #AEC2C2;
 }
 
 h5 {
@@ -47,9 +57,10 @@ h5 {
 }
 
 .price {
-  font-weight: italic;
+  font-style: italic;
   font-family: "Raleway",sans-serif;
   font-size: 14px;
+  font-style: italic;
 }
 
 p {
@@ -60,7 +71,7 @@ p {
 
 .chicken {
   background-color: #D0DFDF;
-  border: 5 px solid gray;
+  border: 3px gray;
   border-style: dotted;
   border-color: #AEC2C2;
   padding-left: 50px;
@@ -72,15 +83,26 @@ p {
 
 h6 {
   font-family: "Raleway", sans-serif;
-  font-size: 14px
-  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: .5px;
+}
+
+#pizza-toppings {
   color: #8c080b;
-  line-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .topping-list {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
+}
+
+.toppings {
+  color: #8f8f8f;
+  font-style: italic;
 }
 
 .bottom {
