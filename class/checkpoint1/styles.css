@@ -1,0 +1,125 @@
+/*
+font-family: 'Montserrat', ;
+font-family: 'Noto Serif', ;
+*/
+.clearfix {
+  overflow: auto;
+}
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+a {
+  color: 33485e;
+}
+
+h1 {
+    color: #33485e;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+img {
+  margin-left: 10px;
+}
+
+#header {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 20px;
+  /* top, left/right, bottom */
+  /*top right bottom left*/
+
+}
+
+.header-name {
+  border-bottom: 1px solid #999999;
+  margin-bottom: 20px;
+}
+
+#header p{
+  color: #999999;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Noto Serif", serif;
+  margin-top: 0;
+}
+
+.job-title {
+  background-color: #33485e;
+  color: #FFFFFF;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  /* padding: 2px 5px;*/
+}
+
+#social ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#social ul li {
+  display: inline-block;
+}
+
+#social ul li::after {
+  /*target the li's in social and target the space immediately after them*/
+  content: "|";
+  padding: 6px;
+}
+
+#social ul li:last-child::after {
+  /*target same as above, but only the last li element in the list*/
+  content: "";
+}
+
+img {
+    max-width: 600px;
+    width: 33%;
+    float: right;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+  background-color: #33485e;
+}
+
+.sections {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 0px;
+  margin-bottom: 2px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #656565;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  color: #656565;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  color: #656565;
+}
+
+p {
+  font-family: "Noto Serif", serif;
+}

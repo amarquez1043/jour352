@@ -1,0 +1,71 @@
+body {
+  max-width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 25px;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+h6 {
+  font-family: "Helvetica", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  margin: 0 auto;
+  padding-top: 2px;
+}
+
+p {
+  font-family; "Georgia", serif;
+  font-size: 13px;
+}
+
+img {
+  max-width: 40%;
+  padding:15px;
+  margin: 0 auto;
+}
+
+.caption {
+  font-size: 12px;
+  font-family: "Helvetica", sans-serif;
+  color: #929292;
+}
+
+#caption-one {
+  margin: 0 auto;
+  padding: 0px;
+  padding: 0px 0px 0px 100px;
+}
+
+#first-photo, #second-photo, #last-photo {
+  padding: 10px 300px;
+  border: 5px gray;
+}
+
+.double-photos {
+  padding: 10px 120px;
+  width: 1000px;
+  margin: 0 auto;
+  border: 5px gray;
+}
+
+.pquote {
+    float: right;
+    font-size: 39px;
+    font-weight: bold;
+    width: 200px;
+    background: url(images/openquote.gif) top left no-repeat;
+    color: #030;
+    font-size: 26px;
+    line-height: 0.9;
+    font-style: italic;
+    padding: 13px;
+}
+
+blockquote {
+    margin: 0;
+}

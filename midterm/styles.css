@@ -1,0 +1,94 @@
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Lato', sans-serif;
+ */
+body {
+  max-width: 60%;
+  margin: auto;
+}
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 20px
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+  color: #666565;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Lato', 'Helvetica' , 'Arial' , sans-serif;
+  font-size: 16px;
+}
+
+.photo {
+  max-width: 65%;
+  padding:15px;
+  margin: 0 auto;
+}
+
+#first-photo {
+  max-width: 95%;
+}
+
+.center-photo {
+  text-align: center;
+}
+
+#circle {
+  max-width: 30%;
+}
+
+.captions {
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left:0px;
+  margin-right:0px;
+  padding: 0 0 1em;
+  color: #666565;
+  padding-left: 5px;
+  line-height: 20px;
+}
+
+/*Halfway through the midterm and I'm still struggling to format the caption correctly :(*/
+
+.related {
+  font-style: italic;
+  font-size: 16px;
+}
+
+blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  float: left;
+}
+
+#bquote {
+  font-family: 'Merriweather', serif;
+  font-size: 17px;
+  color: #253D83;
+}
+
+#moeller {
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+  color: #253D83;
+}
