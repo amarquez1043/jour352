@@ -6,6 +6,8 @@
     text-align: center;
 }
 
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+
 #pink {
   background-color: #F5C6D6;
   min-height: 200px;
