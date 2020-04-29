@@ -5,22 +5,59 @@ body {
   margin: auto;
 }
 
+#bgimage {
+  background-image: url("mckmall.jpg");
+  min-height: 800px;
+  max-width: 80%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.photocaption {
+  max-width: 80%;
+  padding-top: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  margin: 0 auto;
+  color: #535353;
+}
+
+.photocaption2 {
+  padding-left: 300px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
 .top {
   padding-top: 20px;
   max-width: 60%;
   margin: auto;
 }
 
+.top {
+  align-content: center;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   font-weight: bold;
+  padding-left: 175px;
+  padding-right: 175px;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: normal;
+  text-align: center;
 }
 
 h3 {
@@ -28,6 +65,7 @@ h3 {
   font-size: 16px;
   font-style: italic;
   margin: 0 auto;
+  text-align: center;
 }
 
 h4 {
@@ -36,6 +74,23 @@ h4 {
   font-style: italic;
   color: #535353;
   margin: 0 auto;
+  text-align: center;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  style: normal;
+  color: #FFFFFF;
+}
+
+#photocaption2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 0px;
 }
 
 .story-text {
@@ -46,4 +101,33 @@ h4 {
 p {
   font-family: 'Source Serif Pro', serif;
   font-size: 16px;
+}
+
+.chart {
+  text-align: center;
+}
+
+#photo2 {
+  text-align: center;
+}
+
+#photocredit1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #535353;
+}
+
+#photocredit2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  color: #535353;
+}
+
+.bottom {
+  text-align: center;
+  background-color: #B92801;
+  max-width: 50%;
+  margin: 0 auto;
 }
