@@ -26,10 +26,6 @@ body {
   color: #535353;
 }
 
-.photocaption2 {
-  padding-left: 300px;
-}
-
 .container {
   margin: 0 auto;
 }
@@ -58,6 +54,7 @@ h2 {
   font-size: 18px;
   font-weight: normal;
   text-align: center;
+  line-height: 10px;
 }
 
 h3 {
@@ -81,11 +78,11 @@ h5 {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   style: normal;
-  color: #FFFFFF;
 }
 
 #photocaption2 {
   font-family: 'Montserrat', sans-serif;
+  color: #535353;
   font-size: 12px;
   text-align: center;
   padding-left: 80px;
@@ -101,6 +98,10 @@ h5 {
 p {
   font-family: 'Source Serif Pro', serif;
   font-size: 16px;
+}
+
+a {
+  color: #b85700;
 }
 
 .chart {
@@ -127,7 +128,6 @@ p {
 
 .bottom {
   text-align: center;
-  background-color: #B92801;
   max-width: 50%;
   margin: 0 auto;
 }
