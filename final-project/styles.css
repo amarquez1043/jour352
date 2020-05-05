@@ -104,26 +104,17 @@ a {
   color: #b85700;
 }
 
+a:hover {
+  color: #e22b2b;
+}
+
+
 .chart {
   text-align: center;
 }
 
 #photo2 {
   text-align: center;
-}
-
-#photocredit1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  font-style: italic;
-  color: #535353;
-}
-
-#photocredit2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
-  font-style: italic;
-  color: #535353;
 }
 
 .bottom {
